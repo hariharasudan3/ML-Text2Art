@@ -1,33 +1,21 @@
-# Text-to-Image Generation Tool
+# ML Text2Art
 
-This tool generates images from text prompts using machine learning techniques, specifically the **Stable Diffusion** model. It converts written descriptions into corresponding visual representations, enabling creative image generation.
+ML Text2Art is a machine learning-powered tool that generates images based on textual descriptions. It uses the Stable Diffusion model to convert text input into high-quality artwork.
 
 ## Features
+- **Text-to-Image Generation:** Convert text prompts into unique, AI-generated images.
+- **User Interface:** Simple and interactive UI built with `customtkinter` for easy text input and image display.
+- **Stable Diffusion Model:** Utilizes the Stable Diffusion model for high-quality, detailed image generation.
 
-- **Generate Images from Text:** Converts natural language descriptions into unique images.
-- **Easy-to-Use GUI:** A simple interface where users can input text and see the generated image.
-- **Customizable Prompts:** Users can specify detailed text prompts to control the image output.
+## Requirements
+- **Python 3.10 or later**
+- **Required Libraries:**
+  - `customtkinter`
+  - `diffusers`
+  - `torch`
+  - `transformers`
+  - `Pillow`
 
-## Usage
-
-1. **Text-to-Image Generation:** 
-   - Enter a text prompt into the input field (e.g., "A sunny beach with waves"), and the tool generates an image based on the description.
-   
-2. **Image Display:** 
-   - The generated image is displayed on the app’s interface in real-time.
-
-### Example Input/Output
-
-- **Input Prompt:** "A mountain landscape with snow and trees"  
-  **Output:** A realistic image of a snow-covered mountain range with trees.
-
-- **Input Prompt:** "A futuristic city with flying cars"  
-  **Output:** A vibrant, futuristic cityscape with hovering vehicles.
-
-## Required Modules
-
-The following Python libraries are required to run the app:
-
-- **CustomTkinter:** A library for creating modern, themed GUI applications.  
-  ```bash
-  pip install customtkinter
+### Install dependencies:
+```bash
+pip install -r requirements.txt
